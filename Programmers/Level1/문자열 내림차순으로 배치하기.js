@@ -1,3 +1,3 @@
-const solution = (s) => s.split("").reverse().join("");
+const solution = (s) => s.split("").sort().reverse().join("");
 
 solution("Zbcdefg");
